@@ -1,0 +1,16 @@
+# ###
+POST http://localhost:8800/register
+Content-Type: application/json
+{
+  "email": "manoj060301@gmail.com",
+  "upi_id":"8431189610@apl",
+  "password":"manoj@123",
+}
+
+
+POST http://localhost:8800/api/auth/login
+Content-Type: application/json
+{
+  "email": "manoj060301@gmail.com",
+  "password":"manoj@123",
+}
